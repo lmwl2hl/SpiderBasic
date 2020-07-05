@@ -149,6 +149,15 @@ def find_allFun():
     print("\ntag.find_all(\"a\", recursive=False)\n", tag.find_all("a", recursive=False))
 
 
+def findFun():
+    """
+    find方法：
+        * 参数与find_all一样
+        * find方法相当于find_all方法limit=1
+        * find_all方法返回的是列表，find方法直接返回结果
+    """
+
+
 def selectData():
     soup_obj = getSoup("get_using_cookie.html")
 
